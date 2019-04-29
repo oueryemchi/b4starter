@@ -1,0 +1,133 @@
+
+// ==== Import Bootstrap SCSS file.
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+$grey: #697677;
+
+
+$font1: 'Rubik', sans-serif;
+$font2: 'Varela Round', sans-serif;
+
+strong{
+	font-weight: 400;
+}
+
+@mixin font1(){
+	font-family: $font1;
+}
+@mixin font2(){
+	font-family: $font2;
+}
+
+@mixin transition ($transition) {
+	-webkit-transition: $transition;
+	-moz-transition:    $transition;
+	-ms-transition:     $transition;
+	-o-transition:      $transition;
+}
+
+// smooth animation:
+@mixin tr() {
+	-webkit-transition: 0.4s;
+	-moz-transition:    0.4s;
+	-ms-transition:     0.4s;
+	-o-transition:      0.4s;
+}
+@mixin trs() {
+	-webkit-transition: 0.8s;
+	-moz-transition:    0.8s;
+	-ms-transition:     0.8s;
+	-o-transition:      0.8s;
+}
+
+// Vertical align elements:
+@mixin va() {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+.va{
+  @include va();
+}
+
+// Vertical Align only on Desktop:
+.vad{
+  padding: 150px 0 100px 0;
+
+  @include media-breakpoint-up(md){
+    @include va();
+    padding: 0;
+  }
+}
+
+
+// ==== Misc
+
+.uc{
+  text-transform: uppercase;
+}
+.ca{
+  text-align: center;
+}
+.la{
+  text-align: left !important;
+}
+.sp10{
+  margin-bottom: 10px;
+}
+.sp20{
+  margin-bottom: 20px;
+}
+.sp30{
+  margin-bottom: 30px;
+}
+.sp40{
+  margin-bottom: 40px;
+}
+.sp50{
+  margin-bottom: 50px;
+}
+.sp60{
+  margin-bottom: 60px;
+}
+.sp70{
+  margin-bottom: 70px;
+}
+.sp80{
+  margin-bottom: 80px;
+}
+.sp90{
+  margin-bottom: 90px;
+}
+.sp100{
+  margin-bottom: 100px;
+}
+.sp150{
+  margin-bottom: 150px;
+}
+
+.mb{
+	margin-bottom: 0 !important;
+}
+
+
+// =========================================================
+
+body{
+	-webkit-font-smoothing: antialiased;
+	font-size: 16px;
+	color: $grey1;
+	font-family: $font1;
+	font-weight: 300;
+	font-size: 17px;
+	line-height: 1.3em;
+
+	@include media-breakpoint-up(md){
+		font-size: 20px;
+		line-height: 25px;
+	}
+}

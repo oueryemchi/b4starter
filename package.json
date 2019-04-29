@@ -1,0 +1,43 @@
+{
+  "name": "bs4starter-sass",
+  "version": "1.0.1",
+  "description": "Bootstrap 4.3.1 starter kit with Gulp, Scss compiler, auto refresh. browse sync and FTP upload on command.",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "Abdel Oueryemchi - abdel.co.za",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.4.0",
+    "popper.js": "1.15.0",
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.7.0",
+    "gulp-connect-php": "^1.0.3",
+    "gulp-minify": "^3.1.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "gulp-util": "^3.0.8",
+    "vinyl-ftp": "^0.6.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.7.0",
+    "gulp-connect-php": "^1.0.3",
+    "gulp-minify": "^3.1.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "gulp-util": "^3.0.8",
+    "vinyl-ftp": "^0.6.1"
+  }
+}
