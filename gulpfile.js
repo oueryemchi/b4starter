@@ -53,7 +53,8 @@ gulp.task('fa', function() {
 gulp.task('serve', ['sass'], function() {
 
     browserSync.init({
-        proxy: '127.0.0.1:8010',
+         // type here the URL to your src folder:
+         proxy: 'http://localhost/testing/bs4starter/src/',
         port: 8080,
         open: true,
         notify: false
@@ -79,9 +80,9 @@ gulp.task('default', ['sass','js','fonts', 'fa', 'serve']);
 
 
 /** Configuration **/
-var user = 'yakotfujrb';
-var password = '3wZa1rI1KyMJ70ix6tjC';
-var host = '41.203.18.17';
+var user = 'ftpUSER';
+var password = 'ftpPASS';
+var host = 'IP';
 var port = 21;
 var localFilesGlob = ['./src/**/*'];
 var remoteFolder = '/public_html/'

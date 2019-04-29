@@ -16,28 +16,16 @@ A step by step series of examples that tell you how to get a development environ
 2 - From the root of the project folder, get Gulp:
 
 ```
-$ npm install gulp.
+$ npm init
+$ npm install
+$ npm update
 ```
 
 3 - Launch the project:
 
 ```
-$ npm start
+$ gulp
 ```
-
-## Deployment
-
-TBC
-
-## Built With
-
-* [Bootstrap 4.3.1](https://getbootstrap.com/) - The web framework used
-
-
-## Contributing
-
-N/A
-
 
 ## Authors
 
