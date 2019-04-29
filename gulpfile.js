@@ -54,7 +54,7 @@ gulp.task('serve', ['sass'], function() {
 
     browserSync.init({
          // type here the URL to your src folder:
-         proxy: 'http://localhost/testing/bs4starter/src/',
+         proxy: 'http://localhost/firenze/bs4starter/src/',
         port: 8080,
         open: true,
         notify: false
